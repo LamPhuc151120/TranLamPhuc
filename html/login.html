@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Login</title>
+</head>
+
+<body>
+    <a href="/index.html">Home</a>
+    <a href="/html/gallery.html">Gallery</a>
+    <a href="">Login</a>
+
+    <br><br>
+
+    <form>
+        Name <input type="text" required><br><br>
+        Age <input type="number" min="18" max="60"><br><br>
+        Email <input type="email"><br><br>
+        Password <input type="password" minlength="6" maxlength="16"><br><br>
+        Birthday <input type="date"><br><br>
+        Time <input type="time"><br><br>
+        Datetime <input type="datetime"><br><br>
+        Favourite Color <input type="color"><br><br>
+        Your CV <input type="file"><br><br>
+
+        How can I contact you?
+        <input type="checkbox"> Email
+        <input type="checkbox"> Phone
+        <br><br>
+
+        Gender?
+        <input type="radio" name="Gender"> Male
+        <input type="radio" name="Gender"> Female
+        <br><br>
+
+        Marital Status?
+        <input type="radio" name="MaritalStatus"> Single
+        <input type="radio" name="MaritalStatus"> Married
+        <br><br>
+
+        Your Favourite Car
+        <select>
+            <optgroup label="KIA">
+                <option>Car 01</option>
+                <option>Car 02</option>
+            </optgroup>
+
+            <optgroup label="BMW">
+                <option>Car 01</option>
+                <option>Car 02</option>
+            </optgroup>
+
+            <optgroup label="Mercedes">
+                <option>Car 01</option>
+                <option>Car 02</option>
+            </optgroup>
+        </select>
+
+        <br><br>
+
+        Price ($0 - $10) <input type="range" min="0" max="10">
+
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+
+        <br><br>
+
+        <input type="button" value="Normal Button">
+    </form>
+</body>
+
+</html>
